@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F9D300129E49BC6455DF48D1388815BBBE28C68D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "1FF0AEE258CAF92CFDAAC1529B65066DB1E2E5C5" : 0,
+    "F9D300129E49BC6455DF48D1388815BBBE28C68D" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "9E8DCF28-C1B7-44BE-930F-E7B4A24980AC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "1FF0AEE258CAF92CFDAAC1529B65066DB1E2E5C5" : "..",
+    "F9D300129E49BC6455DF48D1388815BBBE28C68D" : "AnswerBall\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "AnswerBall",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "AnswerBall.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ReissZ\/Kaching.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1FF0AEE258CAF92CFDAAC1529B65066DB1E2E5C5"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ReissZ\/AnswerBall.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F9D300129E49BC6455DF48D1388815BBBE28C68D"
+    }
+  ]
+}

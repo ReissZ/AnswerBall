@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Nhr-jt-7d5">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--Shake for Answer-->
+        <scene sceneID="DxS-Q7-YoU">
+            <objects>
+                <viewController id="YgX-Rh-v8i" customClass="MainVC" customModule="AnswerBall" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rGI-Kh-Kv6"/>
+                        <viewControllerLayoutGuide type="bottom" id="ZOp-Re-YT2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="EPl-uF-KtZ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2015-08-10_20-01-19__ball" translatesAutoresizingMaskIntoConstraints="NO" id="gpv-rr-5F0">
+                                <rect key="frame" x="128" y="128" width="345" height="345"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="345" id="KUs-an-L3c"/>
+                                    <constraint firstAttribute="height" constant="345" id="Qpb-1b-9zJ"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xTH-b8-Fcq">
+                                <rect key="frame" x="166" y="221" width="269" height="158"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="269" id="mnm-LC-QZy"/>
+                                    <constraint firstAttribute="height" constant="158" id="nyw-69-a0t"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="32"/>
+                                <color key="textColor" red="0.98380287249999998" green="0.98380287249999998" blue="0.98380287249999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <size key="shadowOffset" width="2" height="1"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FwJ-nu-BPF">
+                                <rect key="frame" x="260.5" y="550" width="80" height="30"/>
+                                <state key="normal" title="Get Answer">
+                                    <color key="titleColor" red="0.98380287249999998" green="0.98380287249999998" blue="0.98380287249999998" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="getAnswerTapped:" destination="YgX-Rh-v8i" eventType="touchUpInside" id="0MX-w9-xHh"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="gpv-rr-5F0" firstAttribute="centerX" secondItem="EPl-uF-KtZ" secondAttribute="centerX" id="71F-dZ-lfc"/>
+                            <constraint firstItem="gpv-rr-5F0" firstAttribute="centerY" secondItem="EPl-uF-KtZ" secondAttribute="centerY" id="OaB-tm-JZl"/>
+                            <constraint firstItem="FwJ-nu-BPF" firstAttribute="centerX" secondItem="EPl-uF-KtZ" secondAttribute="centerX" id="P9v-H2-O4G"/>
+                            <constraint firstItem="FwJ-nu-BPF" firstAttribute="top" secondItem="gpv-rr-5F0" secondAttribute="bottom" constant="77" id="RvY-tN-BNf"/>
+                            <constraint firstItem="xTH-b8-Fcq" firstAttribute="centerX" secondItem="EPl-uF-KtZ" secondAttribute="centerX" id="gJu-pb-kda"/>
+                            <constraint firstItem="xTH-b8-Fcq" firstAttribute="centerY" secondItem="EPl-uF-KtZ" secondAttribute="centerY" id="ixy-Wf-Xxa"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Shake for Answer" id="6Ey-jX-xwE"/>
+                    <connections>
+                        <outlet property="label" destination="xTH-b8-Fcq" id="Iks-0e-fWe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GQC-Lg-uKr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="951" y="62"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="vCt-65-L6H">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Nhr-jt-7d5" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="lJP-7T-Whk">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="YgX-Rh-v8i" kind="relationship" relationship="rootViewController" id="36v-dg-mqr"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jWt-vD-V8f" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="62"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="2015-08-10_20-01-19__ball" width="345" height="345"/>
+    </resources>
+</document>
